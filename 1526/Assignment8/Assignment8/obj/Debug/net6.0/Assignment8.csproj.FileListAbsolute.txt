@@ -1,0 +1,15 @@
+/home/ben/classes/1526/Assignment8/Assignment8/bin/Debug/net6.0/Assignment8
+/home/ben/classes/1526/Assignment8/Assignment8/bin/Debug/net6.0/Assignment8.deps.json
+/home/ben/classes/1526/Assignment8/Assignment8/bin/Debug/net6.0/Assignment8.runtimeconfig.json
+/home/ben/classes/1526/Assignment8/Assignment8/bin/Debug/net6.0/Assignment8.dll
+/home/ben/classes/1526/Assignment8/Assignment8/bin/Debug/net6.0/ref/Assignment8.dll
+/home/ben/classes/1526/Assignment8/Assignment8/bin/Debug/net6.0/Assignment8.pdb
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.csproj.AssemblyReference.cache
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.AssemblyInfoInputs.cache
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.AssemblyInfo.cs
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.csproj.CoreCompileInputs.cache
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.dll
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/ref/Assignment8.dll
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.pdb
+/home/ben/classes/1526/Assignment8/Assignment8/obj/Debug/net6.0/Assignment8.genruntimeconfig.cache

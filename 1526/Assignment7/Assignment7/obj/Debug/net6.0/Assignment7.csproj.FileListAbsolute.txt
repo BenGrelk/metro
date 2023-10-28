@@ -1,0 +1,15 @@
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.csproj.AssemblyReference.cache
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.AssemblyInfoInputs.cache
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.AssemblyInfo.cs
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.csproj.CoreCompileInputs.cache
+/home/ben/classes/1526/Assignment7/Assignment7/bin/Debug/net6.0/Assignment7
+/home/ben/classes/1526/Assignment7/Assignment7/bin/Debug/net6.0/Assignment7.deps.json
+/home/ben/classes/1526/Assignment7/Assignment7/bin/Debug/net6.0/Assignment7.runtimeconfig.json
+/home/ben/classes/1526/Assignment7/Assignment7/bin/Debug/net6.0/Assignment7.dll
+/home/ben/classes/1526/Assignment7/Assignment7/bin/Debug/net6.0/ref/Assignment7.dll
+/home/ben/classes/1526/Assignment7/Assignment7/bin/Debug/net6.0/Assignment7.pdb
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.dll
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/ref/Assignment7.dll
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.pdb
+/home/ben/classes/1526/Assignment7/Assignment7/obj/Debug/net6.0/Assignment7.genruntimeconfig.cache

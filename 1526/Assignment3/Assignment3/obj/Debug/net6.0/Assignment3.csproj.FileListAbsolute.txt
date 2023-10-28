@@ -1,0 +1,15 @@
+/home/ben/classes/1526/Assignment3/Assignment3/bin/Debug/net6.0/Assignment3
+/home/ben/classes/1526/Assignment3/Assignment3/bin/Debug/net6.0/Assignment3.deps.json
+/home/ben/classes/1526/Assignment3/Assignment3/bin/Debug/net6.0/Assignment3.runtimeconfig.json
+/home/ben/classes/1526/Assignment3/Assignment3/bin/Debug/net6.0/Assignment3.dll
+/home/ben/classes/1526/Assignment3/Assignment3/bin/Debug/net6.0/ref/Assignment3.dll
+/home/ben/classes/1526/Assignment3/Assignment3/bin/Debug/net6.0/Assignment3.pdb
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.csproj.AssemblyReference.cache
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.AssemblyInfoInputs.cache
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.AssemblyInfo.cs
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.csproj.CoreCompileInputs.cache
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.dll
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/ref/Assignment3.dll
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.pdb
+/home/ben/classes/1526/Assignment3/Assignment3/obj/Debug/net6.0/Assignment3.genruntimeconfig.cache

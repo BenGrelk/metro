@@ -1,0 +1,15 @@
+/home/ben/classes/1526/Assignment4/Assignment4/bin/Debug/net6.0/Assignment4
+/home/ben/classes/1526/Assignment4/Assignment4/bin/Debug/net6.0/Assignment4.deps.json
+/home/ben/classes/1526/Assignment4/Assignment4/bin/Debug/net6.0/Assignment4.runtimeconfig.json
+/home/ben/classes/1526/Assignment4/Assignment4/bin/Debug/net6.0/Assignment4.dll
+/home/ben/classes/1526/Assignment4/Assignment4/bin/Debug/net6.0/ref/Assignment4.dll
+/home/ben/classes/1526/Assignment4/Assignment4/bin/Debug/net6.0/Assignment4.pdb
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.csproj.AssemblyReference.cache
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.AssemblyInfoInputs.cache
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.AssemblyInfo.cs
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.csproj.CoreCompileInputs.cache
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.dll
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/ref/Assignment4.dll
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.pdb
+/home/ben/classes/1526/Assignment4/Assignment4/obj/Debug/net6.0/Assignment4.genruntimeconfig.cache
