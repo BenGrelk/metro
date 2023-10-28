@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ben Grelk's Metro Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<h1>Metro Classes</h1>
+<script>
+    const json = loadManifest();
+    const courses = json.courses;
+
+    courses.forEach(course => {
+            const body = $('body');
+
+            const h2 = $('<h2></h2>');
+            h2.text(course.title);
+            h2.attr("style", `color: ${course.color};`); // `color: ${course.color};
+            body.append(h2);
+
+            const assignments = $("<ul></ul>");
+            course.assignments.forEach(assignment => addAssignmentToList(course.title, assignment.name, assignment.folder, assignments));
+            body.append(assignments);
+        }
+    )
+</script>
+</body>
+</html>
