@@ -1,0 +1,15 @@
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.csproj.AssemblyReference.cache
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.AssemblyInfoInputs.cache
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.AssemblyInfo.cs
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.csproj.CoreCompileInputs.cache
+/home/ben/classes/1526/Final/Final/bin/Debug/net6.0/Final
+/home/ben/classes/1526/Final/Final/bin/Debug/net6.0/Final.deps.json
+/home/ben/classes/1526/Final/Final/bin/Debug/net6.0/Final.runtimeconfig.json
+/home/ben/classes/1526/Final/Final/bin/Debug/net6.0/Final.dll
+/home/ben/classes/1526/Final/Final/bin/Debug/net6.0/ref/Final.dll
+/home/ben/classes/1526/Final/Final/bin/Debug/net6.0/Final.pdb
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.dll
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/ref/Final.dll
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.pdb
+/home/ben/classes/1526/Final/Final/obj/Debug/net6.0/Final.genruntimeconfig.cache
