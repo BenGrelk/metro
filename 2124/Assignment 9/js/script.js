@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         function getFiveDay() {
-            const url = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&cnt=5&appid=${appId}&units=imperial`;
+            const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&cnt=5&appid=${appId}&units=imperial`;
             fetch(url)
                 .then((r) => r.json())
                 .then((wx) => {
