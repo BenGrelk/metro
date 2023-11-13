@@ -1,0 +1,15 @@
+/home/ben/classes/1526/Assignment10/Assignment10/bin/Debug/net6.0/Assignment10
+/home/ben/classes/1526/Assignment10/Assignment10/bin/Debug/net6.0/Assignment10.deps.json
+/home/ben/classes/1526/Assignment10/Assignment10/bin/Debug/net6.0/Assignment10.runtimeconfig.json
+/home/ben/classes/1526/Assignment10/Assignment10/bin/Debug/net6.0/Assignment10.dll
+/home/ben/classes/1526/Assignment10/Assignment10/bin/Debug/net6.0/ref/Assignment10.dll
+/home/ben/classes/1526/Assignment10/Assignment10/bin/Debug/net6.0/Assignment10.pdb
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.csproj.AssemblyReference.cache
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.AssemblyInfoInputs.cache
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.AssemblyInfo.cs
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.csproj.CoreCompileInputs.cache
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.dll
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/ref/Assignment10.dll
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.pdb
+/home/ben/classes/1526/Assignment10/Assignment10/obj/Debug/net6.0/Assignment10.genruntimeconfig.cache
