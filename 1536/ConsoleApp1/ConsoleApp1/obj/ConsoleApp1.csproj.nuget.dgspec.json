@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ben/classes/1526/Assignment9/Assignment9/Assignment9.csproj": {}
+    "/home/ben/classes/1536/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/home/ben/classes/1526/Assignment9/Assignment9/Assignment9.csproj": {
+    "/home/ben/classes/1536/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ben/classes/1526/Assignment9/Assignment9/Assignment9.csproj",
-        "projectName": "Assignment9",
-        "projectPath": "/home/ben/classes/1526/Assignment9/Assignment9/Assignment9.csproj",
+        "projectUniqueName": "/home/ben/classes/1536/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "/home/ben/classes/1536/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
         "packagesPath": "/home/ben/.nuget/packages/",
-        "outputPath": "/home/ben/classes/1526/Assignment9/Assignment9/obj/",
+        "outputPath": "/home/ben/classes/1536/ConsoleApp1/ConsoleApp1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ben/.nuget/NuGet/NuGet.Config"
