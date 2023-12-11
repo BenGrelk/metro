@@ -3,7 +3,7 @@ namespace Assignment1;
 public class HourlyEmployee : Employee
 {
     private readonly decimal _hourlyWage;
-    private readonly decimal _hoursWorked;
+    private decimal _hoursWorked;
 
     private decimal Wage
     {
@@ -15,33 +15,31 @@ public class HourlyEmployee : Employee
         }
     }
 
-    private decimal Hours
+    private decimal GetHours() => _hoursWorked;
+
+    private void SetHours(decimal value)
     {
-        get => _hoursWorked;
-        init
-        {
-            if (value is > 0 and < 168) _hoursWorked = value;
-            else throw new Exception("Hours worked must be between 0 and 168!");
-        }
+        if (value is > 0 and < 168) _hoursWorked = value;
+        else throw new Exception("Hours worked must be between 0 and 168!");
     }
 
     public HourlyEmployee(string firstName, string lastName, string socialSecurity, decimal hourlyWage,
         decimal hoursWorked) : base(firstName, lastName, socialSecurity)
     {
         Wage = hourlyWage;
-        Hours = hoursWorked;
+        SetHours(hoursWorked);
     }
 
     public override string ToString()
     {
         return $@"Hourly {base.ToString()}
-Hourly Wage: ${_hourlyWage:0.00}; Hours Worked: {Hours:.00}
+Hourly Wage: ${_hourlyWage:0.00}; Hours Worked: {GetHours():.00}
 Payment Due: ${GetPaymentAmount()}
 ";
     }
 
     public override decimal GetPaymentAmount()
     {
-        return Hours * Wage;
+        return GetHours() * Wage;
     }
 }
