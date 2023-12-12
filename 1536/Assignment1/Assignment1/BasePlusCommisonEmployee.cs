@@ -2,12 +2,12 @@ namespace Assignment1;
 
 public class BasePlusCommissionEmployee : CommissionEmployee
 {
-    private readonly decimal _baseWeeklySalary;
+    private decimal _baseWeeklySalary;
 
     private decimal BaseWeeklySalary
     {
         get => _baseWeeklySalary;
-        init
+        set
         {
             if (value > 0) _baseWeeklySalary = value;
             else throw new Exception("Weekly salary must be more than 0!");

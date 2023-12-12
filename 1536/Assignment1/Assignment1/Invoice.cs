@@ -2,8 +2,8 @@ namespace Assignment1;
 
 public class Invoice : IPayable
 {
-    private readonly int _quantity;
-    private readonly decimal _pricePerItem;
+    private int _quantity;
+    private decimal _pricePerItem;
 
     private string PartNumber { get; }
     private string PartDescription { get; }
@@ -11,7 +11,7 @@ public class Invoice : IPayable
     private int Quantity
     {
         get => _quantity;
-        init
+        set
         {
             if (value > 0) _quantity = value;
             else throw new Exception("Quantity must be more than 0!");
@@ -21,7 +21,7 @@ public class Invoice : IPayable
     private decimal PricePerItem
     {
         get => _pricePerItem;
-        init
+        set
         {
             if (value > 0) _pricePerItem = value;
             else throw new Exception("Price per item must be more than 0!");

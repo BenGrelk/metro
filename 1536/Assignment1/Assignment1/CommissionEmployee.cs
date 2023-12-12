@@ -2,13 +2,13 @@ namespace Assignment1;
 
 public class CommissionEmployee : Employee
 {
-    private readonly decimal _grossWeeklySales;
-    private readonly decimal _commissionRate;
+    private decimal _grossWeeklySales;
+    private decimal _commissionRate;
 
     private decimal GrossWeeklySales
     {
         get => _grossWeeklySales;
-        init
+        set
         {
             if (value > 0) _grossWeeklySales = value;
             else throw new Exception("Sales must be more than 0!");
@@ -18,7 +18,7 @@ public class CommissionEmployee : Employee
     private decimal CommissionRate
     {
         get => _commissionRate;
-        init
+        set
         {
             if (value is < 1 and > 0) _commissionRate = value;
             else throw new Exception("Commission rate must be between 0 and 1!");
