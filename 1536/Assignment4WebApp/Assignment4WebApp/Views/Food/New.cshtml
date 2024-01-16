@@ -1,0 +1,76 @@
+@model Assignment4WebApp.ViewModels.Food.OrderNewViewModel;
+
+@{
+    ViewData["Title"] = "New Order";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <h1>Create Order</h1>
+    <h4 style="color:red">@Model.Message</h4>
+
+    <form asp-action="New" method="post">
+        <div class="form-group">
+            <label asp-for="Order!.OrderId" class="control-label"></label>
+            <input asp-for="Order!.OrderId" class="form-control" readonly/>
+            <span asp-validation-for="Order!.OrderId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.OrderTotal" class="control-label"></label>
+            <input asp-for="Order!.OrderTotal" class="form-control" readonly/>
+            <span asp-validation-for="Order!.OrderTotal" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.BeverageItem" class="control-label"></label>
+            <select asp-for="Order!.BeverageItem" class="form-control" asp-items="Model.BeverageList">
+                <option value="" disabled selected></option>
+            </select>
+            <span asp-validation-for="Order!.BeverageItem" class="text-danger">Beverage Item is required</span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.AppetizerItem" class="control-label"></label>
+            <!-- Default to empty option, but can't be selected -->
+            <select asp-for="Order!.AppetizerItem" class="form-control" asp-items="Model.AppetizerList">
+                <option value="" disabled selected></option>
+            </select>
+            <span asp-validation-for="Order!.AppetizerItem" class="text-danger">Appetizer Item is required</span>
+        </div>
+
+        <!-- Main Course -->
+        <div class="form-group">
+            <label asp-for="Order!.MainCourseItem" class="control-label"></label>
+            <select asp-for="Order!.MainCourseItem" class="form-control" asp-items="Model.MainCourseList">
+                <option value="" disabled selected></option>
+            </select>
+            <span asp-validation-for="Order!.MainCourseItem" class="text-danger">Main Course Item is required</span>
+        </div>
+
+        <!-- Dessert -->
+        <div class="form-group">
+            <label asp-for="Order!.DessertItem" class="control-label"></label>
+            <select asp-for="Order!.DessertItem" class="form-control" asp-items="Model.DessertList">
+                <option value="" disabled selected></option>
+            </select>
+            <span asp-validation-for="Order!.DessertItem" class="text-danger">Dessert Item is required</span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-default"/>
+        </div>
+
+        <div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>

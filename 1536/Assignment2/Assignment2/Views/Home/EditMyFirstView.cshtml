@@ -1,8 +1,82 @@
-@model dynamic
+@model Assignment2.ViewModels.EditMyFirstViewModel;
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "My First View";
 }
 
-<h2>title</h2>
+
+<h4>Assignment 2 Forms Display</h4>
+<hr/>
+@{
+    if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div>@Model.Message</div>
+    }
+}
+<div class="row">
+    <div>
+        <form asp-action="SaveMyFirstView" method="post">
+            <div class="form-group">
+                <p>Edit My First View</p>
+                <label asp-for="Person.FirstName" class="control-label"></label>
+                <input asp-for="Person.FirstName" class="form-control"/>
+                <p></p>
+                <label asp-for="Person.LastName" class="control-label"></label>
+                <input asp-for="Person.LastName" class="form-control"/>
+                <p></p>
+                <label asp-for="Person.StreetAddress" class="control-label"></label>
+                <input asp-for="Person.StreetAddress" class="form-control"/>
+                <p></p>
+                <label asp-for="Person.City" class="control-label"></label>
+                <input asp-for="Person.City" class="form-control"/>
+                <p></p>
+                <label asp-for="Person.State" class="control-label"></label>
+                <input asp-for="Person.State" class="form-control"/>
+                <p></p>
+                <label asp-for="Person.ZipCode" class="control-label"></label>
+                <input asp-for="Person.ZipCode" class="form-control"/>
+                <p></p>
+                <label asp-for="Person.Country" class="control-label"></label>
+                <select asp-for="Person.Country" asp-items="Model.Countries"></select>
+                <p></p>
+                <label asp-for="Person.Gender" class="control-label"></label>
+                <ul style="list-style-type: none;">
+                    @foreach (var gender in Model.Genders)
+                    {
+                        <li>
+                            <label class="control-label">
+                                <input type="radio" asp-for="Person.Gender" value="@gender">
+                                @gender
+                            </label>
+                        </li>
+                    }
+                </ul>
+                <p></p>
+                <label class="control-label">
+                    Sport
+                    <ul>
+                        <li>
+                            <input asp-for="Football">
+                            <label class="control-label" asp-for="Football"></label>
+                        </li>
+                        <li>
+                            <input asp-for="Basketball">
+                            <label class="control-label" asp-for="Basketball"></label>
+                        </li>
+                        <li>
+                            <input asp-for="Baseball">
+                            <label class="control-label" asp-for="Baseball"></label>
+                        </li>
+                        <li>
+                            <input asp-for="Soccer">
+                            <label class="control-label" asp-for="Soccer"></label>
+                        </li>
+                    </ul>
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>

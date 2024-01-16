@@ -1,0 +1,69 @@
+@model Assignment4WebApp.ViewModels.Food.OrderEditViewModel;
+
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <h1>Edit Order => @Model.Order!.OrderTotal</h1>
+
+    <form asp-action="Edit" method="post">
+        <div class="form-group">
+            <label asp-for="Order!.OrderId" class="control-label"></label>
+            <input asp-for="Order!.OrderId" class="form-control" readonly/>
+            <span asp-validation-for="Order!.OrderId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.OrderTotal" class="control-label"></label>
+            <input asp-for="Order!.OrderTotal" class="form-control" readonly/>
+            <span asp-validation-for="Order!.OrderTotal" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.BeverageItem" class="control-label"></label>
+            <select asp-for="Order!.BeverageItem" class="form-control" asp-items="Model.BeverageList"></select>
+            <span asp-validation-for="Order!.BeverageItem" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.AppetizerItem" class="control-label"></label>
+            <select asp-for="Order!.AppetizerItem" class="form-control" asp-items="Model.AppetizerList"></select>
+            <span asp-validation-for="Order!.AppetizerItem" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.MainCourseItem" class="control-label"></label>
+            <select asp-for="Order!.MainCourseItem" class="form-control" asp-items="Model.MainCourseList"></select>
+            <span asp-validation-for="Order!.MainCourseItem" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Order!.DessertItem" class="control-label"></label>
+            <select asp-for="Order!.DessertItem" class="form-control" asp-items="Model.DessertList"></select>
+            <span asp-validation-for="Order!.DessertItem" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary"/>
+        </div>
+    </form>
+
+    <!-- Delete link -->
+    <div>
+        <a asp-action="Delete" asp-route-id="@Model.Order!.OrderId">Delete</a>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+</body>
+</html>

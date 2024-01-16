@@ -1,0 +1,148 @@
+@model Assignment3.ViewModels.EditDesignViewModel;
+
+@{
+    ViewBag.Title = "EditDesign";
+}
+
+<h1>Edit Design</h1>
+<div id="mainDiv">
+    <form method="post" asp-action="SaveDesign">
+    <div id="topBox">
+        <div id="leftTop">
+            <!-- First Name and Last Name -->
+            <div id="nameDiv">
+                <div id="firstNameDiv">
+                    <label asp-for="FirstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" value="@Model.FirstName"/>
+                </div>
+                <div id="lastNameDiv">
+                    <label asp-for="LastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" value="@Model.LastName"/>
+                </div>
+            </div>
+        </div>
+        <div id="middleTop">
+            <!-- Street Address, City, State, Zip Code -->
+            <div id="addressDiv">
+                <div id="streetAddressDiv">
+                    <label asp-for="StreetAddress">Street Address</label>
+                    <input type="text" id="streetAddress" name="streetAddress" value="@Model.StreetAddress"/>
+                </div>
+                <div id="cityDiv">
+                    <label asp-for="City">City</label>
+                    <input type="text" id="city" name="city" value="@Model.City"/>
+                </div>
+                <div id="stateDiv">
+                    <label asp-for="State">State</label>
+                    <input type="text" id="state" name="state" value="@Model.State"/>
+                </div>
+                <div id="zipCodeDiv">
+                    <label asp-for="ZipCode">Zip Code</label>
+                    <input type="text" id="zipCode" name="zipCode" value="@Model.ZipCode"/>
+                </div>
+            </div>
+        </div>
+        <div id="rightTop">
+            <div id="countryDiv">
+                <label asp-for="Country">Country</label>
+                <select id="country" name="country">
+                    @foreach (var country in Model.Countries)
+                    {
+                        if (country.Value == Model.Country)
+                        {
+                            <option value="@country.Value" selected>@country.Text</option>
+                        }
+                        else
+                        {
+                            <option value="@country.Value">@country.Text</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="middleBox">
+        <div id="leftMiddle">
+            <div id="genderDiv">
+                <label asp-for="Gender" class="control-label"></label>
+                <ul>
+                    @foreach (var gender in Model.Genders)
+                    {
+                        <li>
+                            <label class="control-label">
+                                <input type="radio" asp-for="Gender" value="@gender">
+                                @gender
+                            </label>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div id="middleMiddle">
+            Sport
+            <ul>
+                <label asp-for="Football" class="control-label">
+                    <input type="checkbox" asp-for="Football" value="true">
+                    Football
+                </label>
+                <label asp-for="Baseball" class="control-label">
+                    <input type="checkbox" asp-for="Baseball" value="true">
+                    Baseball
+                </label>
+                <label asp-for="Basketball" class="control-label">
+                    <input type="checkbox" asp-for="Basketball" value="true">
+                    Basketball
+                </label>
+                <label asp-for="Soccer" class="control-label">
+                    <input type="checkbox" asp-for="Soccer" value="true">
+                    Soccer
+                </label>
+            </ul>
+        </div>
+        <div id="rightMiddle"></div>
+    </div>
+    <div id="bottomBox">
+        <div id="friendsDiv">
+            <div id="friendsTable">
+                <div id="friendsColumnNames">
+                    <div id="friendsFirstNameColumn">
+                        First Name
+                    </div>
+                    <div id="friendsLastNameColumn">
+                        Last Name
+                    </div>
+                    <div id="friendsCityColumn">
+                        City
+                    </div>
+                    <div id="friendsStateColumn">
+                        State
+                    </div>
+                </div>
+                @foreach (var friend in Model.Friends)
+                {
+                    <div id="friendsRow">
+                        <div class="friendsFirstName">
+                            @friend.FirstName
+                        </div>
+                        <div class="friendsLastName">
+                            @friend.LastName
+                        </div>
+                        <div class="friendsCity">
+                            @friend.City
+                        </div>
+                        <div class="friendsState">
+                            @friend.State
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div id="submitDiv">
+        <div class="form-group">
+            <!-- blue submit button -->
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+    </form>
+</div>
